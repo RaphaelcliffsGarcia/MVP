@@ -1,0 +1,20 @@
+import React from "react";
+
+
+interface Card {
+  id:number;
+  username:string;
+  email:string;
+}
+
+const CardComponents:React.FC<{card:Card}>=({card})=>{
+  return (
+    <div className="bg-white shadow-lg rounded-lg p-2 mb-2 hover:bg-gray-100">
+        <div className="text-sm text-gray-600">Id:{card.id}</div>
+        <div className="text font-semibold text-gray-800">{card.username}</div>
+        <div className="text-md text-gray-700">{card.email}</div>
+    </div>
+  );
+};
+
+export default CardComponents;
