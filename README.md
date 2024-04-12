@@ -2,6 +2,12 @@
 
 Este projeto é uma aplicação Python Full Stack que utiliza Next.js, Flask, PostgreSQL e Docker para criar um sistema composto por múltiplos componentes que se comunicam seguindo o padrão REST.
 
+## 🎥 Vídeo da Apresentação 🎥
+
+Clique [aqui](https://drive.google.com/file/d/1eF2-_MH30ytC2vzOZcEFuUP2Cw1TaN1B/view?usp=sharing) para assistir ao vídeo da apresentação.
+
+
+
 ## Estrutura do Projeto
 
 A estrutura do projeto é a seguinte:
